@@ -1,0 +1,12 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+  consumer:
+    group-id: my-group
+    topic: test-topic
+    auto-offset-reset: earliest
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: local

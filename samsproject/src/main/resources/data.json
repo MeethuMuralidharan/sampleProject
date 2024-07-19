@@ -1,0 +1,50 @@
+{
+  "parent" : "P2",
+  "name" : "Johnson",
+  "email" : "johnson@example.com",
+  "address" : {
+    "street" : "789 Maple St",
+    "city" : "Metropolis",
+    "state" : "NY",
+    "zip" : "10002"
+  },
+  "phone" : "555-6789",
+  "registeredAt" : "2024-01-15T08:00:00Z",
+  "User" : [ {
+    "_id" : "669898043fc6f3e43f1c9839",
+    "userId" : "U003",
+    "name" : "Carol Davis",
+    "email" : "carol.davis@example.com",
+    "country" : "India",
+    "address" : {
+      "street" : "123 Oak St",
+      "city" : "Gotham",
+      "state" : "NJ",
+      "zip" : "07001"
+    },
+    "phone" : "555-5678",
+    "registeredAt" : "2023-03-05T15:45:00Z",
+    "purchases" : [ {
+      "productId" : "P005",
+      "name" : "Microwave Oven",
+      "description" : "Compact microwave oven with digital controls",
+      "price" : 129.99,
+      "category" : "Home Appliances",
+      "manufacturer" : "HomeGoodies",
+      "purchaseDate" : "2023-03-10T11:00:00Z",
+      "quantity" : 1,
+      "totalPrice" : 129.99
+    }, {
+      "productId" : "P003",
+      "name" : "Coffee Maker",
+      "description" : "A fast and efficient coffee maker",
+      "price" : 49.99,
+      "category" : "Home Appliances",
+      "manufacturer" : "HomeGoodies",
+      "purchaseDate" : "2023-05-20T09:15:00Z",
+      "quantity" : 1,
+      "totalPrice" : 49.99
+    } ],
+    "ParentId" : "P2"
+  } ]
+}
